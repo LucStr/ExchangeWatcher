@@ -16,11 +16,9 @@ export default class Main {
     }
 
     private static onReady() {
-        console.log('onReady');
         Main.mainWindow = new Main.BrowserWindow({ width: 400, height: 600 });
         Main.mainWindow
-            .loadURL('file://' + __dirname + '/index.html');
-        console.log('file://' + __dirname + '/index.html');
+            .loadURL('file://' + __dirname + '/../index.html');
         Main.mainWindow.on('closed', Main.onClose);
     }
 
