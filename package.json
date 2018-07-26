@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LucStr/ExchangeWatcher/issues"
   },
-  "homepage": "https://github.com/LucStr/ExchangeWatcher#readme"
+  "homepage": "https://github.com/LucStr/ExchangeWatcher#readme",
+  "dependencies": {
+    "electron": "^2.0.5"
+  }
 }
