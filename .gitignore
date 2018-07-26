@@ -62,3 +62,6 @@ typings/
 
 # typescript generated files
 dist/
+
+# ignore vscode
+.vscode/
