@@ -1,0 +1,19 @@
+{
+  "name": "exchangewatcher",
+  "version": "1.0.0",
+  "description": "The ExchangeWatcher is used to monitor crypto-rates of different exchanges",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucStr/ExchangeWatcher.git"
+  },
+  "author": "Luca Strebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucStr/ExchangeWatcher/issues"
+  },
+  "homepage": "https://github.com/LucStr/ExchangeWatcher#readme"
+}
