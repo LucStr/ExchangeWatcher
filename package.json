@@ -4,7 +4,7 @@
   "description": "The ExchangeWatcher is used to monitor crypto-rates of different exchanges",
   "main": "main.ts",
   "scripts": {
-    "start": "tsc & electron dist/app.js"
+    "start": "tsc & node dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
     "url": "https://github.com/LucStr/ExchangeWatcher/issues"
   },
   "homepage": "https://github.com/LucStr/ExchangeWatcher#readme",
-  "dependencies": {}
+  "dependencies": {
+    "ccxt": "^1.17.39",
+    "electron-rebuild": "^1.8.1",
+    "express": "^4.16.3",
+    "node-gyp": "^3.7.0",
+    "scrypt": "^6.0.3",
+    "w3": "^1.0.0"
+  }
 }
