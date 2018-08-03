@@ -20,6 +20,7 @@
     "ccxt": "^1.17.39",
     "electron-rebuild": "^1.8.1",
     "express": "^4.16.3",
+    "mustache-express": "^1.2.7",
     "node-gyp": "^3.7.0",
     "scrypt": "^6.0.3",
     "w3": "^1.0.0"
