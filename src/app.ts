@@ -19,13 +19,12 @@ app.engine('mustache', mustacheExpress(viewFolder, '.mustache'));
 
 app.set('view engine', 'mustache');
 app.set('views', __dirname + '/../views');
-app.set("layout", "layout");
+app.set("layout", 'layout');
 
 
-app.get('/', (req, res) => res.render('test', {name: 'Luca'})
+app.get('/', (req, res) => res.render('test', {name: 'Luca', peter: 'PETER'}));
+app.get('/no', (req, res) => res.render('test', {settings: {layout: false}, name: 'Luca', peter: 'PETER'}));
 
-//.send('Hello World!')
-);
 
 
 
